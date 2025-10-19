@@ -212,16 +212,17 @@ Five customer clusters were identified:
    - **XGBoost Classifier**  
    - **Support Vector Machine** 
 
-4. **Evaluation Metrics:**  
-   - Accuracy, Precision, Recall, F1-Score, and ROC-AUC.  
-5. **Results of best model:**  
-| **Metric**     | **Before Fine-Tuning** | **After Fine-Tuning** | **Change** |
-|-----------------|------------------------|------------------------|-------------|
-| Accuracy        | 67.93%                 | 66.12%                 | −1.81%      |
-| Precision       | 62.16%                 | 55.49%                 | −6.67%      |
-| Recall          | 34.98%                 | 44.70%                 | +9.72%      |
-| F1-score        | 44.74%                 | 49.49%                 | +4.75%      |
-| ROC-AUC         | 70.14%                 | 68.72%                 | −1.42%      |
+4. **Evaluation Metrics:**: Accuracy, Precision, Recall, F1-Score, and ROC-AUC.
+   
+5. **Results of best model**:
+
+| **Metric** | **Before Fine-Tuning** | **After Fine-Tuning** | **Change** |
+|-------------|------------------------|------------------------|-------------|
+| Accuracy    | 67.93%                 | 66.12%                 | −1.81%      |
+| Precision   | 62.16%                 | 55.49%                 | −6.67%      |
+| Recall      | 34.98%                 | 44.70%                 | +9.72%      |
+| F1-score    | 44.74%                 | 49.49%                 | +4.75%      |
+| ROC-AUC     | 70.14%                 | 68.72%                 | −1.42%      |
 
 
 
