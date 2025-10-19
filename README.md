@@ -82,7 +82,6 @@ The project follows a structured data analytics process:
 
 ## Entity Relationship Diagram (ERD)
 The ERD below illustrates the logical structure of the data warehouse
-<h2>🧩 Entity Relationship Diagram (ERD)</h2>
 <p align="center">
   <img src="Docs/Images/ERD.drawio.png" alt="ERD Diagram" width="700">
 </p>
@@ -90,6 +89,7 @@ The ERD below illustrates the logical structure of the data warehouse
 
 ## Visualizations
 1. **Brand Health Overview**
+![Brand Health Overview](Docs/Images/Brand%20Health%20Overview.png)
 - Market Metrics: 12K respondents, average NPS of 7.97, and average spending of 155K VND.
 - Top Performers: Highlands Coffee (8.5) and Cộng Cà Phê (8.3) lead in customer satisfaction and loyalty.
 - Store Growth (2017–2019):
@@ -102,6 +102,7 @@ The ERD below illustrates the logical structure of the data warehouse
 **Key Insight**: Highlands Coffee maintains strong brand awareness and satisfaction but must improve retention and repeat visits to strengthen long-term loyalty.
 
 2. **Customer Portrait**
+![Customer Portrait](Docs/Images/Customer%20Portrait.png)
 - Super Premium (5.9K) dominates, followed by Premium (2.4K) and Mass Aspiring (2.4K) – indicating higher-income representation.
 - Spending Patterns:
     + Self-Employed/Company Owners: 198K average spending, peaking at 293K (age 30–34).
@@ -113,6 +114,7 @@ The ERD below illustrates the logical structure of the data warehouse
 **Key Insight**: Highlands Coffee’s brand identity resonates with younger, urban consumers and professionals. Sustaining engagement among older demographics could balance its customer base and stabilize long-term revenue.
 
 3. **Overview of Brand Coffee Market and Brand Image**
+![Market and Brand Image](Docs/Images/Overview%20of%20Coffee%20Store%20Market%20and%20Brand%20Image.png)
 - Survey Base: 11,760 respondents, 56% female, 44% male, majority Blue Collar.
 - Store Growth (2017–2019):
     + Highlands Coffee: 115 → 150 → 162 (+44)
@@ -128,6 +130,7 @@ The ERD below illustrates the logical structure of the data warehouse
 **Key Insight**: Highlands Coffee leads in both store count and positive brand attributes. However, it faces saturation in HCMC, suggesting expansion opportunities in Tier-2 cities like Đà Nẵng, Nha Trang, and Hải Phòng.
 
 4. **Needstate DayPart Overview**
+![Needstate DayPart Overview](Docs/Images/Needstate%20DayPart%20Overview%20Dashboard.png)
 - Respondent Metrics: 12K respondents, 127K total visits, averaging 10.23 visits/person.
 - Visit Timing:
     + Morning (Before 9 AM): ~50% of visits, showing peak early-day engagement.
