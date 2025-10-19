@@ -136,13 +136,14 @@ Segmentation_Lookup, Occupation, Age_Lookup, and MPI_Lookup enrich Respondent an
 NeedstateDaypart incorporates multiple dimensions (Respondent, City, DayOfWeek, DayPart, Needstate)
 to account for visit motives to coffee shops.
 Competitor and BrandLocation provide an interface between city-level and brand-level marketplace research.
-
+```
 --- 
 
 ## Visualizations
 1. **Brand Health Overview**
-
-![Brand Health Overview](Docs/Images/Brand%20Health%20Overview.png)
+<div align="center">
+   <img src="Docs/Images/Brand%20Health%20Overview.png" alt="Brand Health Overview" width="700"/>
+</div>
 
 - Market Metrics: 12K respondents, average NPS of 7.97, and average spending of 155K VND.
 - Top Performers: Highlands Coffee (8.5) and Cộng Cà Phê (8.3) lead in customer satisfaction and loyalty.
@@ -157,7 +158,9 @@ Competitor and BrandLocation provide an interface between city-level and brand-l
 
 2. **Customer Portrait**
 
-![Customer Portrait](Docs/Images/Customer%20Portrait.png)
+<div align="center">
+<img src="Docs/Images/Customer%20Portrait.png" alt="Customer Portrait" width="700"/>
+</div>
 
 - Super Premium (5.9K) dominates, followed by Premium (2.4K) and Mass Aspiring (2.4K) – indicating higher-income representation.
 - Spending Patterns:
@@ -171,7 +174,9 @@ Competitor and BrandLocation provide an interface between city-level and brand-l
 
 3. **Overview of Brand Coffee Market and Brand Image**
    
-![Market and Brand Image](Docs/Images/Overview%20of%20Coffee%20Store%20Market%20and%20Brand%20Image.png)
+<div align="center">
+<img src="Docs/Images/Overview%20of%20Coffee%20Store%20Market%20and%20Brand%20Image.png" alt="Market and Brand Image" width="700"/>
+</div>
 
 - Survey Base: 11,760 respondents, 56% female, 44% male, majority Blue Collar.
 - Store Growth (2017–2019):
@@ -189,7 +194,9 @@ Competitor and BrandLocation provide an interface between city-level and brand-l
 
 4. **Needstate DayPart Overview**
 
-![Needstate DayPart Overview](Docs/Images/Needstate%20DayPart%20Overview%20Dashboard.png)
+<div align="center">
+<img src="Docs/Images/Needstate%20DayPart%20Overview%20Dashboard.png" alt="Needstate DayPart Overview" width="700"/>
+</div>
 
 - Respondent Metrics: 12K respondents, 127K total visits, averaging 10.23 visits/person.
 - Visit Timing:
