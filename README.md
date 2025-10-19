@@ -60,7 +60,7 @@ The project follows a structured data analytics process:
    - Defined customer profiles by spending, visit frequency, and income level.  
 
 5. **Churn Prediction**  
-   - Developed models using **Logistic Regression**, **Random Forest**, and **XGBoost**.  
+   - Developed models using **Logistic Regression**, **Random Forest**, **XGBoost**, and **SVM**.  
    - Used **SMOTE** to address class imbalance.  
    - Evaluated using accuracy, precision, recall, and F1-score.  
 
