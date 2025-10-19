@@ -244,6 +244,7 @@ Five customer clusters were identified:
 
 ## Project Structure  
 Project
+```
 ├── README.md
 ├── structure.txt
 │
@@ -267,3 +268,4 @@ Project
 │   └── Unprocessed Data
 │
 └── Docs
+```
