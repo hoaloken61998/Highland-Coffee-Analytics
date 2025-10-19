@@ -1,0 +1,5 @@
+SegmentCode,SegmentName,SpendingRange,MinSpending,MaxSpending
+Seg.01,Mass,<VND 25K,0,24999
+Seg.02,Mass Asp,VND 25K - VND 59K,25000,59000
+Seg.03,Premium,VND 60K - VND 99K,60000,99000
+Seg.04,Super Premium,VND 100K+,100000,

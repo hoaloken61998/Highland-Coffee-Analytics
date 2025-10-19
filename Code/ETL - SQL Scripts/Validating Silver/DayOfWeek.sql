@@ -1,0 +1,12 @@
+SELECT TOP (1000) [DayOfWeekKey]
+      ,[RespondentID]
+      ,[City]
+      ,[DayOfWeek]
+      ,[VisitFreq]
+      ,[Year]
+      ,[WeekdayEnd]
+      ,[dwh_create_date]
+  FROM [HighlandCoffee].[Silver].[DayOfWeek]
+
+SELECT DISTINCT [WeekdayEnd]
+FROM [Silver].[DayOfWeek]
