@@ -86,6 +86,58 @@ The ERD below illustrates the logical structure of the data warehouse
   <img src="Docs/Images/ERD.drawio.png" alt="ERD Diagram" width="700">
 </p>
 
+### ERD Core Entities
+
+```text
+Core Entities
+-------------
+Respondent: Central table containing demographic (Age, Gender, Occupation, MPI),
+behavioural (Top-of-Mind brand, Brand Used Most Often, Previous Brand, Most Favourite),
+and contextual attributes (City, Year, GroupSize). It is also a central table referring to
+nearly all other entities.
+
+BrandHealth: Captures brand-related performance indicators like awareness, trial, usage
+frequency, spend, segmentation, and NPS. It can be attached to Respondent, City, Brand,
+Competitor, and Segmentation.
+
+Brand_Image: Contains brand characteristic mappings, perceptions, and knowledge.
+Corresponds to Respondent, Brand, City, and Year.
+
+NeedstateDaypart: Stores consumers' needs at specific days and dayparts. Corresponds to
+Respondent, City, DayOfWeek, DayPart, and Needstate_Lookup.
+
+Lookup and Dimension Tables
+----------------------------
+Segmentation_Lookup: Standardizes customer segments (Mass, Mass Asp, Premium, Super Premium)
+based on spending range, to enrich BrandHealth data.
+
+Occupation: Classifies occupation into standard categories.
+Age_Lookup: Provides consistent age category assignment.
+MPI_Lookup: Categorizes monthly personal income (MPI) into pre-specified categories.
+Needstate_Lookup: Bins more detailed need states into wider categories.
+
+Contextual Entities
+--------------------
+Companion: Information on visit companions (CompanionGroup, GroupSize) of Respondent.
+DayOfWeek: Weekday/Weekend visit-store patterns.
+DayPart: Tracks visit frequency across different periods of day.
+Competitor: Contains information regarding competing brands.
+BrandLocation: Retail location coverage by Brand and City, including numbers of stores
+to estimate market penetration.
+City: Provides standardized city names and codes to provide geographic consistency.
+
+Relationships
+--------------
+Respondent entity is core, connecting demographic data to brand comprehensions,
+health indicators, companions, and visit behavior.
+BrandHealth and Brand_Image are associated with Respondent and Brand, allowing cross-sectional
+brand performance to be analyzed.
+Segmentation_Lookup, Occupation, Age_Lookup, and MPI_Lookup enrich Respondent and BrandHealth.
+NeedstateDaypart incorporates multiple dimensions (Respondent, City, DayOfWeek, DayPart, Needstate)
+to account for visit motives to coffee shops.
+Competitor and BrandLocation provide an interface between city-level and brand-level marketplace research.
+
+--- 
 
 ## Visualizations
 1. **Brand Health Overview**
