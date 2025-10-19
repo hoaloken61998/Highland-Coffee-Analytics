@@ -82,7 +82,10 @@ The project follows a structured data analytics process:
 
 ## Entity Relationship Diagram (ERD)
 The ERD below illustrates the logical structure of the data warehouse
-![ERD Diagram](Docs/Images/ERD.drawio.png)
+<h2>🧩 Entity Relationship Diagram (ERD)</h2>
+<p align="center">
+  <img src="Docs/Images/ERD.drawio.png" alt="ERD Diagram" width="700">
+</p>
 
 
 ## Visualizations
